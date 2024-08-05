@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #282828;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 240px;
+    background-color: #181818;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #b3b3b3;
+    display: block;
+    padding: 10px 0;
+}
+
+.sidebar ul li a:hover {
+    color: #ffffff;
+}
+
+.sidebar hr {
+    border: 1px solid #282828;
+    margin: 20px 0;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #282828;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.card h2 {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #282828;
+    padding: 10px;
+    text-align: center;
+}
+
+footer .player {
+    font-size: 1em;
+}
+
+
